@@ -3,12 +3,41 @@ body {
   font-variation-settings:
     "wdth" 100;
   margin: 0;
+  min-height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .hero {
   background-color: #1f2937;
-  color: white;
+  padding: 0 100px;
 }
+
+.hero-block-one {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero-logo {
+  font-size: 24px;
+  color: #F9FAF8;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+
+a {
+  text-decoration: none;
+  color: #e5e7eb;
+  font-size: 18px;
+}
+
 
 footer {
   background-color: #1f2937;
