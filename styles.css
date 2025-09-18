@@ -12,7 +12,7 @@ body {
 
 .hero {
   background-color: #1f2937;
-  padding: 0 100px;
+  padding: 0 175px;
 }
 
 .hero-block-one {
@@ -38,6 +38,41 @@ a {
   font-size: 18px;
 }
 
+.hero-block-two {
+  display: flex;
+  padding-top: 60px;
+  padding-bottom: 70px;
+}
+
+.hero-main-text {
+  color: #F9FAF8;
+  font-size: 48px;
+  font-weight: 900;
+}
+
+.hero-secondary-text {
+  color: #e5e7eb;
+  font-size: 18px;
+}
+
+button {
+  background-color: #3882f6;
+  color: #e5e7eb;  
+  font-size: 18px;
+  padding: 10px 35px;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.placeholder {
+  background-color: darkgray;
+  color: #e5e7eb;
+  height: 200px;
+  width: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 footer {
   background-color: #1f2937;
