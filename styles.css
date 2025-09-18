@@ -72,6 +72,33 @@ button {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-left: 10px;
+}
+
+.information-header {
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 900;
+  text-align: center;
+}
+
+.boxes {
+  display: flex;
+  padding: 50px 100px;
+  justify-content: space-evenly;
+  padding-top: 
+}
+
+.box {
+  height: 175px;
+  width: 175px;
+  border: 5px solid #3882f6;
+  border-radius: 15px;
+}
+
+.subtext {
+  width: 175px;
+  text-align: center;
 }
 
 footer {
