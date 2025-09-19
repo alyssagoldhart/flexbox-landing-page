@@ -68,11 +68,12 @@ button {
   background-color: darkgray;
   color: #e5e7eb;
   height: 200px;
-  width: 800px;
+  width: 450px;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-left: 10px;
+  margin-left: 30px;
+  flex-shrink: 0;
 }
 
 .information-header {
@@ -80,13 +81,13 @@ button {
   color: #1f2937;
   font-weight: 900;
   text-align: center;
+  padding-top: 25px;
 }
 
 .boxes {
   display: flex;
   padding: 50px 100px;
   justify-content: space-evenly;
-  padding-top: 
 }
 
 .box {
@@ -99,6 +100,27 @@ button {
 .subtext {
   width: 175px;
   text-align: center;
+}
+
+.quote-box {
+  background-color: #e5e7eb;
+  color: #1f2937;
+  padding: 200px;
+}
+
+.quote {
+  align-self: center;
+  font-size: 36px;
+  font-weight: 300;
+  font-style: italic;
+  padding-bottom: 0;
+}
+
+.author {
+  font-size: 18px;
+  text-align: end;
+  font-weight: 900;
+  padding-top: 10px;
 }
 
 footer {
