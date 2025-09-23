@@ -75,6 +75,9 @@ button {
   border-radius: 10px;
   margin-top: 10px;
   flex-grow: 0;
+  outline: none;
+  border-style: solid;
+  border-color: #1f2937;
 }
 
 .image {
